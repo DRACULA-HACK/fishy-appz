@@ -7,8 +7,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Install necessary tools
-sudo apt-get update
-sudo apt-get install -y ettercap-text-only dsniff
+apt-get update
+apt-get install -y ettercap-text-only dsniff
 
 # Configure ettercap
 ettercap -G
@@ -31,5 +31,3 @@ echo "Malicious URL: $malicious_url"
 
 # Start a web server to host the malicious URL
 python3 -m http.server 80
-
-Tell about this script
