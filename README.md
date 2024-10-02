@@ -96,3 +96,6 @@ These scripts are provided for educational purposes only. Use them responsibly a
 ---
 
 Feel free to customize any sections or add additional information specific to your project!
+---
+
+by MASTER-HACK
