@@ -2,9 +2,15 @@
 
  # Install Python and Flask
  sudo apt-get update
- sudo apt-get install -y python3 python3-pip
+ sudo apt-get install -y python3 python3-pip figlet pv
  pip3 install flask
-
+# by master hack 
+# by master hack 
+clear
+echo "by "
+figlet MASTER-HACK 
+echo -e " |||||||||||||||||||||||||||100% please wait "|pv -qL 1
+sleep4
 # Create the Flask app
 cat << EOF > app.py
 from flask import Flask, request
