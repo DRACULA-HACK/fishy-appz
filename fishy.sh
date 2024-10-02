@@ -8,8 +8,10 @@ fi
 
 # Install necessary tools
 apt-get update
-apt-get install -y ettercap-text-only dsniff
-
+apt-get install -y ettercap-text-only dsniff figlet
+# by master hack 
+echo "by "
+figlet MASTER-HACK
 # Configure ettercap
 ettercap -G
 
