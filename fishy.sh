@@ -10,6 +10,8 @@ fi
 apt-get update
 apt-get install -y ettercap-text-only dsniff figlet
 # by master hack 
+clear
+
 echo "by "
 figlet MASTER-HACK
 # Configure ettercap
