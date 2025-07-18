@@ -1,7 +1,7 @@
 # fishy-appz 
 
 
-
+https://buymeacoffee.com/masterhackzz
 ---
 
 ▎fishy-appz
